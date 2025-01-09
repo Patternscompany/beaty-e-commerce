@@ -435,7 +435,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden sm:flex gap-10 text-sm text-white-700">
-          {[{ path: "/", label: "HOME" }, { path: "/Collection", label: "COLLECTION" }, { path: "/PureSilkSaree", label: "PURE SILK SAREE" }, { path: "/Kurtis", label: "KURTIS" }].map(({ path, label }) => (
+          {[{ path: "/", label: "HOME" }, { path: "/collection", label: "COLLECTION" }, { path: "/puresilksaree", label: "PURE SILK SAREE" }, { path: "/kurtis", label: "KURTIS" }].map(({ path, label }) => (
             <NavLink key={path} to={path} className="flex flex-col items-center gap-1">
               <p>{label}</p>
               <hr className="w-2/4 border-none h-[2px] bg-gray-700 hidden" />
@@ -485,7 +485,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div className="sm:hidden flex justify-around bg-black-200 py-2">
-        {[{ path: "/", label: "HOME" }, { path: "/Collection", label: "COLLECTION" }, { path: "/PureSilkSaree", label: "PURE SILK SAREE" }, { path: "/Kurtis", label: "KURTIS" }].map(({ path, label }) => (
+        {[{ path: "/", label: "HOME" }, { path: "/collection", label: "COLLECTION" }, { path: "/puresilksaree", label: "PURE SILK SAREE" }, { path: "/kurtis", label: "KURTIS" }].map(({ path, label }) => (
           <NavLink key={path} to={path} className="text-sm font-medium">
             {label}
           </NavLink>

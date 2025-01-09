@@ -349,8 +349,10 @@ const LatestCollection = () => {
               />
 
               {/* Add to Cart Button on Top of Image */}
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-center p-2 opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-full group-hover:translate-y-0 duration-500 ease-in-out">
-  
+              <div className=" bg-black bg-opacity-50 text-center p-2 opacity-1 duration-500 ease-in-out">
+  <button   onClick={() => handleAddToCart(product)}  >
+    Add To Cart
+  </button> 
 </div>
 
               

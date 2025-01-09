@@ -181,7 +181,7 @@ const ShopContextProvider = (props) => {
     if (token) {
       try {
         await axios.post(
-          "http://localhost:4000/api/cart/add", 
+          "https://backend-lac-beta.vercel.app/api/cart/add", 
           { itemId, size }, 
           { headers: { Authorization: `Bearer ${token}` } }
         );
