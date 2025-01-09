@@ -1,0 +1,32 @@
+.cart-notify {
+    position: absolute;
+    right: -100%;
+    top: 0;
+    height: 100vh;
+    background-color: white;
+    transition: right 0.3s ease-in-out; /* Smooth slide transition */
+  }
+  
+  .cart-notify.active {
+    right: 0;
+  }
+  
+  .bag {
+    cursor: pointer;
+  }
+  
+  .close-cart {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    margin-top: 10px;
+    background-color: #f00;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  
+  

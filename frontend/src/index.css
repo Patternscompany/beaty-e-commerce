@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr{
+  display: block;
+}
+
+*{
+  font-size: outfit;
+}
+body{
+  overflow-x: hidden;
+}
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
+@media (max-width:640px) {
+  a.active{
+    background-color: black;
+    color: white;
+  }
+  
+}
+
+.carousel-status{
+  display: none;
+}
+.navbar{
+  background-color: black;
+  color: white;
+}
+
+
+.index{
+  z-index: -1;
+}
+.slow{
+  transition: 2s all ease;
+}
+.background{
+  background-color:black;
+}
+.navbar{
+  background-color:black;
+}
+
+.search{
+  background-color:black;
+}
+
+.user{
+  background-color:black;
+}
+
+.bag{
+  background-color:black;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.transition-all {
+  transition: all 0.3s ease-in-out;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.max-h-0 {
+  max-height: 0;
+}
+
+.max-h-screen {
+  max-height: 500px; /* Adjust based on your content's height */
+}
+.cart-notify {
+  position: absolute;
+  right: -100%;
+  top: 0;
+  background-color: white;
+  transition: right 0.3s ease-in-out; /* Smooth slide transition */
+}
+
+.cart-notify.active {
+  right: 0;
+}
+
+.bag {
+  cursor: pointer;
+}
+
+.close-cart {
+  margin-top: 10px;
+  background-color: #f00;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+
+
